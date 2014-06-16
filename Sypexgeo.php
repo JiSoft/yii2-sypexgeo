@@ -95,9 +95,9 @@ class Sypexgeo
         if (isset($data['city']))
             $this->city = $data['city'];
         if (isset($data['region']))
-            $this->city = $data['region'];
+            $this->region = $data['region'];
         if (isset($data['country']))
-            $this->city = $data['country'];
+            $this->country = $data['country'];
         return empty($data) ? false : $data;
     }
 
